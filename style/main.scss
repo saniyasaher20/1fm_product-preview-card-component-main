@@ -12,8 +12,10 @@
 
   body {
       background-color: $cream;
+  }
+
+  section {
       height: 100vh;
-      width: 100vw;
       display: grid;
       place-items: center;
   }
@@ -86,7 +88,7 @@
 
   //   Mobile device
   @media(max-width:375px) {
-      body {
+      section {
           padding: 5%;
       }
 
